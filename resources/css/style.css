@@ -413,7 +413,7 @@ header{
 .works-step div{
     color: #ffa325;
     border: 2px solid #ffa325;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 50%;
     height: 50px;
     width: 54px;
