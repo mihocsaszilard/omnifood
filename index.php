@@ -351,12 +351,17 @@
                     
                     <div class="row">
                         <?php 
-                        <div class="form-messages success">
+                        if($_GET["success"] == 1){
+                            echo  "<div class=\"form-messages success\">
                             Thank you! Your message has been sent!
-                        </div>
-                      <!-- <div class="form-messages error">
+                        </div>";
+                        }
+                       
+                        if($_GET["success"] == -1){
+                            echo  "<div class=\"form-messages error\">
                             Sorry! Something went wrong. Please try again!
-                        </div> -->
+                        </div>";
+                        }
                         ?>
                     </div>
 
