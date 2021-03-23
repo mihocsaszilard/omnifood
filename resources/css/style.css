@@ -161,10 +161,10 @@ input[type=submit]{
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
-
 .btn-full:link,
 .btn-full:visited,
 input[type=submit]{
+    height: 48px;
     background-color: #ffa325;
     border: solid #ffa325;
     color: #fff;
@@ -187,11 +187,14 @@ input[type=submit]:active{
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]{
+    height: 48px;
+    width: 140px;
     border: 1px solid #d4861a;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
+    width: 140px;
     border: 1px solid #d4861a;
     color: #fff;
 }
@@ -389,6 +392,7 @@ input[type=submit]{
 
 .app-screen{
     width: 40%;
+    box-shadow: 1px 24px 15px -25px rgba(0,0,0,0.6);
 }
 
 .works-step{
@@ -413,17 +417,25 @@ input[type=submit]{
     margin-right: 25px;
 }
 
+.store-btn-container{
+    text-align: center;
+}
+
 .btn-app:link,
 .btn-app:visited{
     border: 0;
-    padding-right: 20px;
+    padding-right: 5px;
 }
 
 .btn-app img{
     height: 60px;
     width: auto;
-    margin-right: 10px;
 }
+
+.border-radius{
+    border-radius: 12px;
+}
+
 
 /*-----------------------------------------------------------*/
 /*CITIES*/
@@ -442,6 +454,10 @@ input[type=submit]{
 
 .city-feature{
     margin: 5px;
+}
+
+.city-boxshadow{
+    box-shadow: 3px 3px 10px rgb(216, 216, 216);
 }
 
 /*-----------------------------------------------------------*/
@@ -497,7 +513,7 @@ cite img{
     border-radius: 10px;
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 2px 2px #f8f8f8;
+    box-shadow: 3px 3px 10px rgb(216, 216, 216);
 }
 
 .plan-box div{
