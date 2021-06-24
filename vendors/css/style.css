@@ -41,7 +41,7 @@ section{
 
 h1,
 h2,
-h3{    
+h3{
     font-weight: 300;
     text-transform: uppercase;
   }
@@ -109,11 +109,10 @@ h2:after{
 
 .btn:link,
 .btn:visited {
-    display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px;
+    border-radius: 20px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -218,7 +217,7 @@ header{
 
 .meals-showcase{
     list-style: none;
-    width: 100%;   
+    width: 100%;
 }
 
 .meals-showcase li{
@@ -296,4 +295,3 @@ btn-app img{
     width: auto;
     margin-right: 10px;
 }
-

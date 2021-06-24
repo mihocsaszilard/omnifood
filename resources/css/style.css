@@ -54,7 +54,7 @@ section{
 
 h1,
 h2,
-h3{    
+h3{
     font-weight: 300;
     text-transform: uppercase;
   }
@@ -125,7 +125,7 @@ h2:after{
     color: #ffa325;
     font-size: 120%;
     margin-right: 10px;
-    
+
     /* secrets to align icons*/
     line-height: 120%;
     vertical-align: middle;
@@ -154,7 +154,6 @@ a:active{
 .btn:link,
 .btn:visited,
 input[type=submit]{
-    display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
@@ -164,9 +163,8 @@ input[type=submit]{
 .btn-full:link,
 .btn-full:visited,
 input[type=submit]{
-    height: 48px;
     background-color: #ffa325;
-    border: solid #ffa325;
+    border: 1px solid #ffa325;
     color: #fff;
     margin-right: 15px;
 }
@@ -187,14 +185,11 @@ input[type=submit]:active{
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]{
-    height: 48px;
-    width: 140px;
     border: 1px solid #d4861a;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    width: 140px;
     border: 1px solid #d4861a;
     color: #fff;
 }
@@ -202,7 +197,7 @@ input[type=submit]{
 /*HEADER*/
 /*-----------------------------------------------------------*/
 .header-background{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -256,7 +251,7 @@ input[type=submit]{
 }
 
 .main-nav li a:hover,
-.main-nav li a:active{   
+.main-nav li a:active{
     border-bottom: 2px solid #ffa325;
 }
 
@@ -341,7 +336,7 @@ input[type=submit]{
 
 .meals-showcase{
     list-style: none;
-    width: 100%;   
+    width: 100%;
 }
 
 .meals-showcase li{
@@ -465,7 +460,7 @@ input[type=submit]{
 /*-----------------------------------------------------------*/
 
 .section-testimonials{
-    background-image: linear-gradient(rgba(23, 23, 23, 0.79),rgba(23, 23, 23, 0.79)),url(/resources/css/img/back-customers-min.jpg);
+    background-image: linear-gradient(rgba(23, 23, 23, 0.79),rgba(23, 23, 23, 0.79)), url(img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -554,7 +549,7 @@ cite img{
 
 .plan-box li{
     padding: 5px 0;
-    
+
 }
 .close-outline{color: red;}
 
@@ -647,13 +642,13 @@ footer{
 .logo-twitter,
 .logo-instagram{
     transition: color 0.2s;
-    
-   
+
+
 }
 
 .logo-facebook:hover{
     color: #3b5998;
- 
+
 }
 
 .logo-twitter:hover{
@@ -709,7 +704,3 @@ footer p{
 .js--wp-3.animated{
     opacity: 1;
 }
-
-
-
-
