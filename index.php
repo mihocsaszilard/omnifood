@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/animate.min.css">        
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
@@ -48,9 +48,9 @@
                 <a class="btn btn-full js--scroll-to-plans" href="#">I`m hungry</a>
                 <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more </a>
             </div>
-            
+
         </header>
-        
+
         <section class="section-features js--section-features" id="features">
             <div class="row">
                 <h2>Get food fast &ndash; not fast food</h2>
@@ -96,12 +96,12 @@
                             We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
                         </p>
                 </div>
-                    
+
                 </div>
             </div>
-            
+
         </section>
-        
+
         <section class="section-meals">
             <ul class="meals-showcase clearfix">
                 <li>
@@ -125,7 +125,7 @@
                     </figure>
                 </li>
             </ul>
-            
+
             <ul class="meals-showcase clearfix">
                 <li>
                     <figure class="meal-photo">
@@ -149,7 +149,7 @@
                 </li>
             </ul>
         </section>
-        
+
      <section class="section-steps"  id="works">
         <div class="row">
             <h2>How it works &ndash; Simple as 1, 2, 3!</h2>
@@ -171,13 +171,13 @@
                     <div>3</div>
                     <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
                 </div>
-                
-                <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store button"></a> 
-                <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store button"></a> 
+
+                <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store button"></a>
+                <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store button"></a>
             </div>
         </div>
      </section>
-        
+
     <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
@@ -248,7 +248,7 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
     <section class="section-testimonials">
         <div class="row">
@@ -273,12 +273,12 @@
                 <cite><img src="resources/img/customer-3.jpg" alt="customer 3 photo">Milton Chapman</cite>
             </blockquote>
         </div>
-        </div>      
+        </div>
     </section>
     <section class="section-plans js--section-plans" id="plans">
         <div class="row">
             <h2>Start eating healthy today!</h2>
-        </div>    
+        </div>
         <div class="row">
             <div class="col span-1-of-3">
                 <div class="plan-box js--wp-4">
@@ -341,22 +341,22 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
         <section class="section-form" id="form">
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
             <div class="row">
                 <form method="post" action="mailer.php" class="contact-form">
-                    
+
                     <div class="row">
-                        <?php 
+                        <?php
                         if($_GET["success"] == 1){
                             echo  "<div class=\"form-messages success\">
                             Thank you! Your message has been sent!
                         </div>";
                         }
-                       
+
                         if($_GET["success"] == -1){
                             echo  "<div class=\"form-messages error\">
                             Sorry! Something went wrong. Please try again!
@@ -418,11 +418,11 @@
                             <input type="submit" value="Send it!">
                         </div>
                     </div>
-                    
+
                 </form>
             </div>
     </section>
-      
+
     <footer>
         <div class="row">
             <div class="col span-1-of-2">
@@ -445,25 +445,13 @@
         <div class="row">
             <p>Copyright &copy; 2020 by OmniFood. All rights reserved.</p>
         </div>
-    </footer>    
+    </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
         <script src="resources/js/script.js"></script>
-        
+
     </body>
-    
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
